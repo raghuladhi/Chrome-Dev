@@ -1,0 +1,19 @@
+{
+	"name":"Current Location Finder",
+	"permissions":["geolocation","https://maps.googleapis.com/*","webview","alarms"],
+	"version":"1.0",
+	"description":"To display the current location.",
+	"manifest_version":2,
+	"app":{
+		"background":{
+			"scripts":["background.js","getLoc.js"]
+			
+					 }
+		  },
+	"icons":{"16":"icon16.png" , "48":"icon48.png" , "128":"icon128.png"}
+	
+
+  
+	
+	
+}
